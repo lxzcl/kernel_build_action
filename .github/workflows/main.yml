@@ -40,10 +40,10 @@ jobs:
     - name: Test CI
       uses: dabao1955/kernel_build_action@main
       with: 
-          kernel-url: https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
+          kernel-url: https://github.com/MiCode/Xiaomi_Kernel_OpenSource
           kernel-dir: msm-4.19
-          branch: taffy
-          config: cas_defconfig
+          branch: haydn-r-oss
+          config: vendor/genericarmv8-64_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
